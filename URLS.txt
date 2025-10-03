@@ -1,0 +1,2 @@
+Github link: https://github.com/Lineo-dev01/IMY-220-Project-2025
+Mongodb connection string: mongodb+srv://test-user:test-password@librarycluster.bczk72y.mongodb.net/DBExample?retryWrites=true&w=majority&appName=LibraryCluster

@@ -1,12 +1,18 @@
-# IMY-220-Project-2025
-Code Sharing Website
+IMY 220 PROJECT
 
-<img width="1280" height="720" alt="Logo with text" src="https://github.com/user-attachments/assets/00a78d73-4778-4b39-aea8-41e80dd65d58" />
+1. installing backend dependencies
+    cd backend
+    npm install
 
+2. installing frontend dependencies
+    cd ../frontend
+    npm install
 
-**Name:** Lineo Khabane  
-**Student Number:** u23604043
+3. running backend 
+    cd ../backend
+    npm run start
 
-## Project Aim
+4. running frontend - open another terminal
+    cd frontend
+    npm start
 
-The aim of this project is to build a uniquely designed version control website focused on code, where users can share and update files in shared projects, view and collaborate on others’ projects, add friends, and more.
