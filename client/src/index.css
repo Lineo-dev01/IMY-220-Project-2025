@@ -1,0 +1,39 @@
+:root {
+  --primary: #2563eb;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #1e293b;
+  --gray: #94a3b8;
+  --radius: 12px;
+  --font-main: 'Inter', sans-serif;
+  --font-mono: 'Roboto Mono', monospace;
+}
+
+* { box-sizing: border-box; margin:0; padding:0; }
+body { font-family: var(--font-main); background: var(--bg); color: var(--text); }
+
+.container { max-width: 1200px; margin: auto; padding: 1rem; }
+
+.btn {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: .6rem 1.2rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-weight: 600;
+}
+.btn:hover { opacity: .9; }
+
+input, textarea {
+  width: 100%;
+  padding: .6rem;
+  margin: .4rem 0;
+  border: 1px solid var(--gray);
+  border-radius: var(--radius);
+  font-family: var(--font-main);
+}
+
+@media (max-width: 768px) {
+  .container { padding: .5rem; }
+}
